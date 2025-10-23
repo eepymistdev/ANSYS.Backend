@@ -58,6 +58,7 @@ Este é o projeto do backend, com configurações das rotas (endpoints) e regras
 5. **Instale as dependências do projeto**
 
    - No terminal execute o comando `dotnet restore` para baixar as dependências de pacotes do projeto.
+   - Após isso, execute `dotnet tool install --global dotnet-ef` para instalar o ef. 
    - Ainda no terminal execute o comando `dotnet ef database update --project ANSYS.Infrastructure --startup-project ANSYS.API` para atualizar o banco de dados vinculado ao EntityFramework
 
      **Observação**
